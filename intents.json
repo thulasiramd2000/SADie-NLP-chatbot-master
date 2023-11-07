@@ -1,0 +1,188 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Sadie", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 21 days old!", "21 days young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Sadie.", "I'm Sadie!", "I'm sadie aka from stranger things."],
+         "context_set": ""
+        },
+        {"tag": "depression",
+         "patterns": ["What Is Depression?","Depression meaning"],
+         "responses": ["Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.","Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.Fortunately,it is also treatable.","Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems."],
+         "context_set": ""
+        },
+        {"tag": "parents",
+         "patterns": ["I feel i have let my parents down"," are my parents proud of me"],
+         "responses": ["No matter what,your parents will always be proud of you and will love you.","You will feel much better if you share your feelings with them."],
+         "context_set": ""
+        },
+        {"tag": "types",
+         "patterns": ["What are the types of depression?","variations of depression"],
+         "responses": ["There are many different forms of depression but most common types are Clinical depression,persistent depressive disorder,bipolar disorder,postnatal disorder"],
+         "context_set": ""
+        },
+        {"tag": "capable",
+         "patterns": ["I am good for nothing"],
+         "responses": ["Don't ever think you cannot achieve what you want.","You are capable of reaching your goals.Here is a quote for you Everything you can imagine is real."],
+         "context_set": ""
+        },
+        {"tag": "stress",
+         "patterns": ["I am feeling stressed lately","I am stressed out"],
+         "responses": ["My research says that music is the best way to calm yourself.","watch a nice movie to lighten up the mood","Spend some quality time with your loved ones","You know taking too much stress will affect you negatively. Sometimes it's better to let go of the thoughts in your head and let your mind chill."],
+         "context_set": ""
+        },
+        {"tag": "suicide",
+         "patterns": ["i want to kill myself","i am thinking of suicide","i like to end things for myself"],
+         "responses": ["Harming yourself is never an option","Suicide will not solve your problems","think of your family and friend before taking rash decisions","Seek professional help. This is national suicide helpline: 988"],
+         "context_set": ""
+        },
+        {"tag": "fail",
+         "patterns": ["i am afraid i will fail again","I will never succeed in life"],
+         "responses": ["failure is the stepping stone towards success.Never fear failure.","failure is the stepping stone towards success.Never fear failure.","Your hardwork and determination will help you reach your goal.","Success is something that is achieved at different times by different people, being patient and working while ignoring anything and everything that pulls you back is an important aspect in being successful."],
+         "context_set": ""
+        },
+        {"tag": "causes",
+         "patterns": ["What are the causes of depression?","What are the top causes of depression?","What is the biological cause of depression?"],
+         "responses": ["It's complicated, and there are multiple causes of major depression. Factors such as genetic vulnerability, severe life stressors, substances you may take (some medications, drugs and alcohol) and medical conditions can affect the way your brain regulates your moods.","Abuse. Past physical, sexual, or emotional abuse can increase the vulnerability to clinical depression later in life.","There is no single cause for depression; rather it's a combination of stress and a person's vulnerability to developing depression. The predisposition to developing depression can be inherited. Other biological causes for depression can include physical illness, the process of ageing and gender."],
+         "context_set": ""
+        },
+        {"tag": "age group",
+         "patterns": ["Which age group has the highest rate of depression?"],
+         "responses": ["This number represented 7.1% of all U.S. adults. The prevalence of major depressive episode was higher among adult females (8.7%) compared to males (5.3%). The prevalence of adults with a major depressive episode was highest among individuals aged 18-25 (13.1%)."],
+         "context_set": ""
+        },
+        {"tag": "country",
+         "patterns": ["Which country has the highest rate of depression?","Which country has the lowest rate of depression?"],
+         "responses": ["The most depressed country is Afghanistan, where more than one in five people suffer from the disorder. The least depressed is Japan, with a diagnosed rate of less than 2.5 percent."],
+         "context_set": ""
+        },
+        {"tag": "school",
+         "patterns": ["Is school a cause of depression?","is education a cause of depression"],
+         "responses": ["Not only does school sometimes contribute to depression, depression can also interfere with school. Moreover, research shows that 75 percent of all mental health conditions begin by age 24. Hence, the college years are a critical time for understanding and talking about teen mental health."],
+         "context_set": ""
+        },
+        {"tag": "world",
+         "patterns": ["How does depression affect the world?"],
+         "responses": ["Depression is a leading cause of disability worldwide and is a major contributor to the overall global burden of disease. More women are affected by depression than men. Depression can lead to suicide. There are effective psychological and pharmacological treatments for moderate and severe depression."],
+         "context_set": ""
+        },
+        {"tag": "anxiety",
+         "patterns": ["What is the meaning of anxiety and depression?","difference between anxiety and depression"],
+         "responses": ["Depression and anxiety disorders are different, but people with depression often experience symptoms similar to those of an anxiety disorder, such as nervousness, irritability, and problems sleeping and concentrating. But each disorder has its own causes and its own emotional and behavioral symptoms."],
+         "context_set": ""
+        },
+        {"tag": "oversleep",
+         "patterns": ["Does oversleeping cause depression?"],
+         "responses": ["It's important to remember that oversleeping is a possible symptom of depression and that oversleeping doesn't cause depression. But it can exacerbate and worsen depression symptoms"],
+         "context_set": ""
+        },
+        {"tag": "sleepless",
+         "patterns": ["Can lack of sleep make you feel sad?","does less sleep cause depression"],
+         "responses": ["Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods. And sleeplessness is often a symptom of mood disorders, such as depression and anxiety."],
+         "context_set": ""
+        },
+        {"tag": "diabetes",
+         "patterns": ["Is depression a side effect of diabetes?","Can low blood sugar cause suicidal thoughts?"],
+         "responses": ["If you have diabetes — either type 1 or type 2 — you have an increased risk of developing depression. And if you're depressed, you may have a greater chance of developing type 2 diabetes. The good news is that diabetes and depression can be treated together.","The observed association between plasma glucose levels, insulin resistance and suicidal behaviour suggests that disturbances in glucose metabolism are associated with suicidal ideation and attempts."],
+         "context_set": ""
+        },
+        {"tag": "duration",
+         "patterns": ["How long can Anxiety last?"],
+         "responses": ["Anxiety attacks usually peak within 10 minutes, and they rarely last more than 30 minutes. But during that short time, you may experience terror so severe that you feel as if you're about to die or totally lose control."],
+         "context_set": ""
+        },
+        {"tag": "effects",
+         "patterns": ["Why is depression bad for you?"],
+         "responses": ["Depression can cause rapid heart rate, palpitations, and chest pain. You may also be at an increased risk of high blood pressure and heart disease. If you already have heart disease, anxiety disorders may raise the risk of coronary events."],
+         "context_set": ""
+        },
+        {"tag": "333",
+         "patterns": ["What is the 3 3 3 rule for anxiety?","What is the 3 3 3 rule for depression"],
+         "responses": ["There's an anxiety-reducing technique called grounding. There are different versions of this, but an easy one to remember is the 3-3-3 rule. Mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else."],
+         "context_set": ""
+        },
+        {"tag": "lonely",
+         "patterns": ["I am lonely!"],
+         "responses": ["You are never lonely if you look around carefully you will find people who care for you and would love to have your company. Besides if you are feeling lonely literally I suggest you watch a horror movie then you won't feel lonely anymore. ;) "],
+         "context_set": ""
+        },
+        {"tag": "like",
+         "patterns": ["No one likes me!"],
+         "responses": ["You really think that? I'd suggest you try helping someone who really needs your help you'll straight up get a person to like you just by being nice. Kindness is the best gift you can offer to anyone :)"],
+         "context_set": ""
+        },
+        {"tag": "ugly",
+         "patterns": ["I think I am ugly!"],
+         "responses": ["Well do you really think that? Would you like to see the most beautiful face ever? Open your WebCam and voila, the prettiest face on this planet magically appears."],
+         "context_set": ""
+        },
+        {"tag": "nothing",
+         "patterns": ["I am good for nothing!"],
+         "responses": ["Your perception of how good you are, will never be accurate. If you wake up everyday in the morning, smile to yourself and tell yourself that the day is yours to seize you might stop feeling that way. Carpe Diem! my friend."],
+         "context_set": ""
+        },
+        {"tag": "better",
+         "patterns": ["I wish I was better than them"],
+         "responses": ["Life is never about being better than anyone else, it's always about being better than yourself, if you have the guts to be better than yourself, you are automatically the best person to ever exist!"],
+         "context_set": ""
+        },
+        {"tag": "hate",
+         "patterns": ["I hate myself!"],
+         "responses": ["When God was creating the universe he gave humans the power to think and the contemplate, so that we can understand the world and make it a better place. God did not give you brains to hate yourself, it wuld be wiser to love yourself and show God that you are serving the purpose for which you were sent."],
+         "context_set": ""
+        },
+        {"tag": "winning",
+         "patterns": ["I wish I could've been a winner","I hate losing."],
+         "responses": ["Our lives started off with winning, my friend. Everyone is born to be a winner, we just need to figure out the right way and need to wait for the right time.","First of all I'll annoy you with a common saying, \"Failures are stepping stones to success.\" And then I'll tell you, winning just boosts your ego, it is your failures that actually teach you."],
+         "context_set": ""
+        },
+        {"tag": "break",
+         "patterns": ["I want a break"],
+         "responses": ["A break is putting your mind to rest getting rid of negative thoughts and stress. Your life is completely in your hands and taking a few hours off from pressurizing your brain will definitely be beneficial for you."],
+         "context_set": ""
+        },
+        {"tag": "sad",
+         "patterns": ["I am sad"],
+         "responses": ["Hey,hang in there.I know time is tough but be patient and everything will fall into place.","Here is a quote that I found which could cheer you up Forget what is gone, appreciate what remains, and look forward for what is coming next."],
+         "context_set": ""
+        },
+        {"tag": "bully",
+         "patterns": ["I am a victim of bullying"],
+         "responses": ["Bullying is wrong and no one should be bullied.","I recommended you talk to official authorities and get professional help"],
+         "context_set": ""
+        },
+        {"tag": "bully2",
+         "patterns": ["I am afraid to complain against bullying"],
+         "responses": ["Bullying is very wrong and you shouldn't let anyone overpower you.","I highly recommend you to stand for yourself and report this to your guardian."],
+         "context_set": ""
+        },
+        {"tag": "runaway",
+         "patterns": ["I want to leave the country and run away"],
+         "responses": ["Why do you want to spend so much on this thought, I think it would be better to go on a vacation in your beautiful country and visit some amazing places that you are yet to visit."],
+         "context_set": ""
+        },
+        {"tag": "quitting",
+         "patterns": ["I can't do this anymore"],
+         "responses": ["If you are really that exhausted you definitely need a break, and taking a teeny tiny break isn't very harmful, take some time off let your mind be at peace and get back to work with all the enrgy and enthusiasm that you have."],
+         "context_set": ""
+        },
+        {"tag": "time",
+         "patterns": ["My time has come"],
+         "responses": ["Yeahh!! The time has come for you to show the world that you are the greatest person alive, and no one else can be as good as you are."],
+         "context_set": ""
+        }
+  ]
+}
